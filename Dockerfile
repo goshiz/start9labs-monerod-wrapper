@@ -31,8 +31,16 @@ ARG MONERO_VERSION=release-v0.17
 
 RUN apk update
 RUN apk --no-cache add \
-  boost \
   libexecinfo \
+  boost-system \
+  boost-thread \
+  boost-chrono \
+  boost-regex \
+  boost-serialization \
+  boost-locale \
+  boost-date_time \
+  boost-program_options \
+  boost-filesystem \
   libzmq \
   bash \
   su-exec
