@@ -1,0 +1,5 @@
+manager/target/
+**/*.rs.bk
+havend.s9pk
+image.tar
+.vscode/

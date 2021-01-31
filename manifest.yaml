@@ -1,0 +1,27 @@
+compat: v0
+id: monerod
+version: "1.2.0"
+title: "Monero Core"
+description:
+  short: "A Monero Full Node by Monero Team"
+  long: "Monero is an ecosystem of untraceable assets that enables users to convert between volatile assets and stable currencies directly within their vault, with complete privacy."
+release-notes: https://github.com/monero-protocol-org/monero-offshore/blob/master/README.md
+ports:
+  - internal: 17750
+    tor: 17750
+  - internal: 17749
+    tor: 17749
+image:
+  type: tar
+mount: /root/.bitmonero
+has-instructions: true
+os-version-required: ">=0.2.8"
+os-version-recommended: ">=0.2.8"
+install-alert: Not Applicable
+uninstall-alert: Not Applicable
+restore-alert: Not Applicable
+assets:
+  - src: monerod.conf.template
+    dst: "."
+    overwrite: true
+hidden-service-version: v3
