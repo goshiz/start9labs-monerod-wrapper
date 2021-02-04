@@ -1,6 +1,6 @@
 # Wrapper for Monero Core
 
-This project wraps [Monero](https://moneroprotocol.org) for EmbassyOS. Monero is an ecosystem of untraceable assets that enables users to convert between volatile assets and stable currencies directly within their vault, with complete privacy.
+This project wraps [Monero](https://moneroprotocol.org) for EmbassyOS.  is a privacy-focused cryptocurrency released in 2014. It uses an obfuscated public ledger, meaning anyone can send or broadcast transactions, but no outside observer can tell the source, amount, or destination.[1] A proof of work mechanism is used to issue new coins and incentivize miners to secure the network and validate transactions.
 
 ## Contributing
 
